@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codiguinho :)</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <img src="../static/css/logo.png" class="logo">
+        <h1>Codiguinho</h1>
+    </header>
+    <main>
+        <center>
+        <div class="caja">
+            <div class="caja1">
+                <textarea class="text-box" cols="45" rows="20" placeholder="Ingrese el código aquí"></textarea>
+            </div>
+            <div class="caja2">
+                <textarea class="resultado" cols="45" rows="20" class="text" readonly> Resultadinhos </textarea>
+            </div>           
+        </div> 
+        </center>     
+        <div class="boton">
+            <button class="compile-button">Analizar Codiguinho </button>
+        </div>
+        <div class="acerca"> 
+            <h2>Documentación de Codiguinho</h2>
+            <ul>
+                <li><span>Palabras clave de tipos de datos:</span>
+                    <ul><br>
+                        <li>intnho es la equivalencia a int.</li>
+                        <li>floatinho es la equivalencia a float.</li>
+                        <li>boolinho es la equivalencia a bool.</li>
+                        <li>boolinho es la equivalencia a bool.</li>
+                        <li>stringho es la equivalencia a string.</li>
+                        <li>verda es true.</li>
+                        <li>falso es false.</li><br> 
+                    </ul>
+                </li>
+                <li><span>Operadores matemáticos:</span>
+                    <ul><br>
+                        <li>+ -> suma</li>
+                        <li>- -> resta</li>
+                        <li>* -> multiplicación</li>
+                        <li>/ -> división</li>
+                        <li>% -> modulo</li><br>
+                    </ul>
+                </li>
+                <li><span>Palabras clave de control de flujo:</span>
+                    <ul><br>
+                        <li>Imprime es print.</li>
+                        <li>ifisinho es la equivalencia a un if.</li>
+                        <li>elifsinho es la equivalencia elif.</li>
+                        <li>elsinho es la equivalencia a else.</li>
+                        <li>darMole es la equivalencia a un while.</li>
+                        <li>daStop es la equivalencia a un break.</li>
+                        <li>volte es la esquivalencia return.</li><br>
+                    </ul>
+                </li>
+                <li><span>Símbolos de control:</span>
+                    <ul><br>
+                        <li>$ define el inicio de la declaración de una variable.</li>
+                        <li>; define un salto de línea.</li>
+                        <li># define el inicio de una función.</li>
+                        <li>= define una asignación.</li>
+                        <li>“ ” delimitan cadenas de caracteres (strings).</li>
+                        <li>{} delimitan bloques de código.</li><br>
+                    </ul>
+                </li>
+            </ul>  
+        </div>  
+        
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../static/js/script.js"></script> 
+</body>
+</html>
